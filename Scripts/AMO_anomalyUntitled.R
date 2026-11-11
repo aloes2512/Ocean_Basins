@@ -1,1 +1,0 @@
-ext_amo <- ext(-80, 0, 0, 65) #lat.min lat.max lon.min lon.max
