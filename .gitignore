@@ -1,0 +1,13 @@
+# RStudio / R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.html
+# Quarto / R Markdown auto-generated caches and file folders
+*_files/
+*_cache/
+.quarto/
+# OS specific
+.DS_Store
+.here

@@ -259,5 +259,6 @@ DF_natrl<-df_full%>%dplyr::select(dt.mnth,anomaly,logstc)%>%
   mutate(natr.resds=anomaly-logstc)
 DF_natrl%>%ggplot(aes(x=dt.mnth))+
   geom_line(aes(y=natr.resds),col="grey")+
-  geom_smooth(aes(y=natr.resds))
-
+  geom_smooth(aes(y=natr.resds))+
+  labs(x=NULL,title = "Natural Harmonics Part of Mediterranean\n Anomaly")
+ggsave("Basin_figs/Natural_anomaly.png")
