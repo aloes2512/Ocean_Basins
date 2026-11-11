@@ -4,6 +4,7 @@
 .RData
 .Ruserdata
 .html
+.tex
 # Quarto / R Markdown auto-generated caches and file folders
 *_files/
 *_cache/
@@ -12,3 +13,4 @@
 data/
 .DS_Store
 .here
+.zip
