@@ -9,5 +9,6 @@
 *_cache/
 .quarto/
 # OS specific
+data/
 .DS_Store
 .here
