@@ -13,5 +13,9 @@
 data/
 .DS_Store
 .here
+<<<<<<< HEAD
 .zip
 Basin_figs/
+=======
+.zip
+>>>>>>> d835c056636759d54216084ea632f2e38f99c135
